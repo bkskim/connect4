@@ -11,14 +11,14 @@ This is a real-time, multiplayer Connect 4 game built with a React frontend and 
 
 # Topics Demonstrated
 
-- Backend (Python)
+- ## Backend (Python)
 - WebSocket Server with `websockets` for real-time bi-directional communication
 - Asynchronous Programming using `async`/`await` to manage multiple clients
 - Game State Management including global board state, player turns, and winner checks
 - Data Serialization with `json.dumps()` / `json.loads()` for structured message exchange
 - Connection Handling for player joins, disconnects, and graceful game cleanup
 
-- Frontend (React)
+- ## Frontend (React)
 - React Hooks: `useState`, `useEffect` for state and lifecycle management
 - Conditional Rendering of game board, messages, and input based on state
 - Dynamic CSS Class Assignment to highlight current player discs
@@ -35,9 +35,16 @@ This is a real-time, multiplayer Connect 4 game built with a React frontend and 
 # How to Run
 
 1. Start the Python WebSocket server
-   python server.py
+   (python server.py)
 3. Run the React frontend
-   npm start or npm run dev
+   (npm start or npm run dev)
+
+# Explanation of Differrent Folders
+
+1. Offline Connect 4 - I started with this simple version of a Connect4 where a single file is run and two players would play Connect4 in terminal on a single computer.
+2. Python Only Connect4 - then I incoporated Network Programming through sockets to create a TCP Server Model for two players to connect on different computers to play the same game.
+3. src - this is the final product with a friendly User Interface coded with React.
 
 # Walk Through
+
 
